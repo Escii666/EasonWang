@@ -1,0 +1,15 @@
+# Java compilation output
+/out/
+*.class
+
+# IntelliJ local state
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/shelf/
+/.idea/httpRequests/
+/.idea/dataSources/
+/.idea/dataSources.local.xml
+
+# OS-generated files
+.DS_Store
+Thumbs.db
