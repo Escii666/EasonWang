@@ -1,1 +1,2 @@
-2048项目的代码修改都在src文件夹中GameLogic里面
+2048项目的代码修改都在src文件夹中的game2048logic的GameLogic里面
+若要运行项目则在src中game2048rendering的Main 即可运行
