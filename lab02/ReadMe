@@ -1,0 +1,2 @@
+Lab02 
+通过在Bomb.java代码中第37，46和65行处添加断点，利用intellij的debugger工具找到phase0、phase1、phase2的password，完成任务
