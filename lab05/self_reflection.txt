@@ -1,0 +1,63 @@
+You must answer at least 4 questions, but the remaining ones are optional. The main goal of this file is to get you thinking critically about your own work, but we will also use these self reflections at the end of the semester when we do our internal review of the course.
+
+ArrayDeque61B:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: No.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A:Writing my own test and see my project passes them all.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A:All kinds of test that repeat again and again, like the " addfirst " test with the "addmultiplefirst" test.
+
+Q: What did you learn by talking to your partner about writing ArrayDeque61B?
+
+A:I've learnt how toselect the item in their specific place.
+
+Q: What do you wish you would have known before writing ArrayDeque61B, if anything?
+
+A:The library that contains "compareto"  is available in java.
+
+Q: If you wrote ArrayDeque61B again, what would you do differently, if anything?
+
+A:I think i would do the same.
+
+-----
+
+LinkedListDeque61B:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: No.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A:Writing my own test and see my project passes them all.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A:All kinds of test that repeat again and again, like the " addfirst " test with the "addmultiplefirst" test.
+
+Q: What did you learn by talking to your partner about writing LinkedListDeque61B?
+
+A:I've learnt how to use recurse to get the item i need.
+
+Q: What do you wish you would have known before writing LinkedListDeque61B, if anything?
+
+A:Sentinel is a strong and necessary tool.
+
+Q: If you wrote LinkedListDeque61B again, what would you do differently, if anything?
+
+A:I think i'd do the same +1.
+
+-----
+
+Meta:
+
+Q: Did you like this design review process? Anything we should do differently next time?
+
+A: I feel a sense of achievement, but its a bit too long. Maybe fewer test to build is better.
