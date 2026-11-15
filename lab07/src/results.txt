@@ -1,0 +1,25 @@
+Lab 07 Performance Results
+
+Times are in milliseconds. Each value is the median of three runs and includes string generation and insertion. The random tests used strings of length 10.
+
+InsertRandomSpeedTest
+N       ULLMap   MyHashMap   Java HashMap
+1000        15           5              1
+5000        98           6              2
+
+InsertInOrderSpeedTest
+N       ULLMap   MyHashMap   Java HashMap
+1000        27           6              2
+5000       248           8              4
+
+ULLMap slowed down much more as N grew in both tests. At N = 5000, MyHashMap took 6 ms for random insertion and 8 ms for in-order insertion. Java's HashMap took 2 ms and 4 ms. I would use a HashMap for lookups by key when order does not matter, and a TreeMap when I need sorted keys or range queries.
+
+BucketsSpeedTest
+N        ArrayList   LinkedList   HashSet   Stack   ArrayDeque
+1000            20            9        10       8            7
+5000            24           16        14      10            9
+100000         158          136       166     128          121
+
+All five bucket types took longer at N = 100000. In these runs, ArrayDeque had the lowest median at that size, and HashSet had the highest. The program tests the bucket types in a fixed order, so I would not assume this ranking holds across runs or machines.
+
+With well-distributed hashes and a bounded load factor, a bucket has a constant expected number of entries. Scanning it already takes expected constant time, so a direct constant-time lookup inside a HashSet bucket would not improve the expected asymptotic complexity of the whole map. It could still help with long buckets if the bucket supports efficient lookup by key.
